@@ -1,4 +1,4 @@
-baseURL: "http://192.168.31.54:8000/"
+baseURL: "https://realtanua0822.github.io/"
 languageCode: "zh-cn"
 title: "我的博客"
 theme: ["PaperMod"]
