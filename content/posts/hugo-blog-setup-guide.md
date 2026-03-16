@@ -1,6 +1,6 @@
 ---
 title: "Hugo + PaperMod 个人博客完整配置教程"
-date: 2026-03-17T10:00:00+08:00
+date: 2026-03-17T01:00:00+08:00
 draft: false
 tags: ["Hugo", "博客", "教程", "PaperMod"]
 categories: ["教程"]
