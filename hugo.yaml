@@ -1,0 +1,46 @@
+baseURL: "http://192.168.31.54:8000/"
+languageCode: "zh-cn"
+title: "我的博客"
+theme: ["PaperMod"]
+
+# PaperMod 主题配置
+params:
+  env: "production"
+  defaultTheme: "auto"
+  ShowShareButtons: true
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  comments: false
+
+  # 首页信息
+  homeInfoParams:
+    Title: "欢迎来到我的博客"
+    Content: "这是一个使用 Hugo 和 PaperMod 主题搭建的个人博客"
+
+  socialIcons:
+    - name: "github"
+      url: "https://github.com/"
+    - name: "twitter"
+      url: "https://twitter.com/"
+
+menu:
+  main:
+    - identifier: "home"
+      name: "首页"
+      url: "/"
+      weight: 1
+    - identifier: "archives"
+      name: "归档"
+      url: "/archives/"
+      weight: 2
+    - identifier: "tags"
+      name: "标签"
+      url: "/tags/"
+      weight: 3
+    - identifier: "search"
+      name: "搜索"
+      url: "/search/"
+      weight: 4

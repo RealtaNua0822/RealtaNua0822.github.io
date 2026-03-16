@@ -1,0 +1,11 @@
+# 忽略生成的静态网站文件 (GitHub Actions 会帮我们生成)
+public/
+
+# 忽略临时文件和编辑器文件
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 如果你使用 npm/yarn 管理依赖，忽略 node_modules
+node_modules/
