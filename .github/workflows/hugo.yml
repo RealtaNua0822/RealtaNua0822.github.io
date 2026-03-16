@@ -21,7 +21,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.147.0 # 这里可以改为你本地 hugo version 显示的版本号
+      HUGO_VERSION: '0.147.0' # FORCE_UPDATE_1773678995
     steps:
       - name: Install Hugo CLI
         run: |
