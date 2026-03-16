@@ -3,6 +3,13 @@ languageCode: "zh-cn"
 title: "我的博客"
 theme: ["PaperMod"]
 
+# 输出格式配置
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON  # 启用 JSON 输出，用于搜索功能
+
 # PaperMod 主题配置
 params:
   env: "production"
