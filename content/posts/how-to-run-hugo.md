@@ -371,10 +371,11 @@ main:
 </div>
 ```
 
-在文章中使用：
+在文章中使用（注意：PaperMod 主题不内置视频短代码，如需嵌入视频需使用自定义短代码或 HTML）：
 
 ```markdown
-{{< youtube dQw4w9WgXcQ >}}
+<!-- 示例：使用 HTML 嵌入 YouTube 视频 -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEO_ID" frameborder="0" allowfullscreen></iframe>
 ```
 
 ## 调试技巧

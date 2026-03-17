@@ -365,31 +365,17 @@ Hugo 提供了强大的短代码功能，可以插入复杂的内容。
 {{< figure src="/images/image.jpg" title="图片标题" caption="图片描述" >}}
 ```
 
-### 2. YouTube 视频
+### 2. 注意事项
 
-```markdown
-{{< youtube dQw4w9WgXcQ >}}
-```
+**PaperMod 主题内置的短代码：**
+- `collapse` - 折叠内容
+- `figure` - 图片展示
+- `inTextImg` - 文中图片
+- `ltr` / `rtl` - 文本方向
 
-### 3. Tweet
+其他短代码（如 youtube、tweet、instagram）需要通过 HTML 嵌入或创建自定义短代码来实现。
 
-```markdown
-{{< tweet user="twitterdev" id="1234567890" >}}
-```
-
-### 4. Spotify
-
-```markdown
-{{< spotify track="4uLU6hMCjMI75M1A2tKUQC" >}}
-```
-
-### 5. Instagram
-
-```markdown
-{{< instagram BWNjjyYFYPP >}}
-```
-
-### 6. 自定义短代码
+### 3. 自定义短代码
 
 创建 `layouts/shortcodes/notice.html`：
 
