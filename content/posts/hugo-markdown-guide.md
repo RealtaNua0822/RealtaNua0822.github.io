@@ -362,7 +362,7 @@ Hugo 提供了强大的短代码功能，可以插入复杂的内容。
 ### 1. 图片短代码
 
 ```markdown
-{{< figure src="/images/image.jpg" title="图片标题" caption="图片描述" >}}
+{{</* figure src="/images/image.jpg" title="图片标题" caption="图片描述" */>}}
 ```
 
 ### 2. 注意事项
@@ -388,9 +388,9 @@ Hugo 提供了强大的短代码功能，可以插入复杂的内容。
 使用：
 
 ```markdown
-{{< notice >}}
+{{</* notice */>}}
 这是一个自定义通知
-{{< /notice >}}
+{{</* /notice */>}}
 ```
 
 ## 高级技巧
