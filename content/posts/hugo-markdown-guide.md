@@ -2,7 +2,7 @@
 title: "Hugo Markdown 完全指南：从入门到精通"
 date: 2026-03-17T02:00:00+08:00
 draft: false
-tags: ["Hugo", "Markdown", "教程", "写作"]
+tags: ["Hugo", "Markdown", "教程", "写作", "AI生成"]
 categories: ["教程"]
 ---
 

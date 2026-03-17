@@ -2,7 +2,7 @@
 title: "Hugo Shortcodes 完全指南：从入门到精通"
 date: 2026-03-17T03:00:00+08:00
 draft: false
-tags: ["Hugo", "Shortcodes", "教程", "开发"]
+tags: ["Hugo", "Shortcodes", "教程", "开发", "AI生成"]
 categories: ["教程"]
 ---
 

@@ -2,7 +2,7 @@
 title: "Hugo 部署机制详解：GitHub Actions 每次都在做什么？"
 date: 2026-03-17T01:30:00+08:00
 draft: false
-tags: ["Hugo", "GitHub Actions", "部署", "教程"]
+tags: ["Hugo", "GitHub Actions", "部署", "教程", "AI生成"]
 categories: ["教程"]
 ---
 

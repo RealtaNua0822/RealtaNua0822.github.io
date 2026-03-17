@@ -2,7 +2,7 @@
 title: "我的第一篇博客"
 date: 2026-03-16T10:00:00+08:00
 draft: false
-tags: ["博客", "Hugo"]
+tags: ["博客", "Hugo", "AI生成"]
 categories: ["技术"]
 ---
 

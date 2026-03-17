@@ -2,7 +2,7 @@
 title: "GitHub Pages 404 错误终极解决方案：.nojekyll 文件的奥秘"
 date: 2026-03-17T03:00:00+08:00
 draft: false
-tags: ["GitHub Pages", "Hugo", "404错误", "故障排除", "教程"]
+tags: ["GitHub Pages", "Hugo", "404错误", "故障排除", "教程", "AI生成"]
 categories: ["教程"]
 ---
 

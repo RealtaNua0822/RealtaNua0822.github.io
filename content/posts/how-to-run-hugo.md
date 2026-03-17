@@ -2,7 +2,7 @@
 title: "Hugo 入门指南：如何运行 Hugo 生成静态网页"
 date: 2026-03-17T01:45:00+08:00
 draft: false
-tags: ["Hugo", "入门", "教程", "静态网站"]
+tags: ["Hugo", "入门", "教程", "静态网站", "AI生成"]
 categories: ["教程"]
 ---
 
