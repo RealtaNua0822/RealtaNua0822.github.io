@@ -27,6 +27,9 @@ params:
     Title: "欢迎来到我的博客"
     Content: "这是一个使用 Hugo 和 PaperMod 主题搭建的个人博客"
 
+  # 日期时间格式（显示完整的时间）
+  DateFormat: "2006-01-02 15:04"
+
   socialIcons:
     - name: "github"
       url: "https://github.com/"
