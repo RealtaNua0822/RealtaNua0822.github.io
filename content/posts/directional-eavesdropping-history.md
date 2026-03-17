@@ -138,6 +138,112 @@ AI技术的引入带来了新的突破：
 - **超远距离**：理论上可以监测几公里外的声音
 - **隐蔽性**：几乎无法被检测到
 
+## 开源项目推荐
+
+随着开源技术的发展，许多优秀的定向麦克风项目在 GitHub 等平台上涌现，为开发者和爱好者提供了学习和实践的机会。
+
+### 麦克风阵列与波束成形项目
+
+#### 1. Microphone Array Beamforming Toolbox
+- **仓库地址**：[MiguelBlancoGalindo/MicArrayBeamforming](https://github.com/MiguelBlancoGalindo/MicArrayBeamforming)
+- **语言**：Matlab
+- **特点**：提供麦克风阵列设计和波束成形算法的 Matlab 库
+- **适用场景**：学术研究、算法验证
+
+#### 2. Acoular
+- **仓库地址**：[acoular/acoular](https://github.com/acoular/acoular)
+- **语言**：Python
+- **许可证**：BSD 3-clause
+- **特点**：用于声学波束成形的 Python 模块，支持声学测试和源映射
+- **适用场景**：声学研究、工业应用
+
+#### 3. triforce
+- **仓库地址**：[chadmed/triforce](https://github.com/chadmed/triforce)
+- **语言**：C
+- **特点**：为 Apple Silicon 笔记本电脑上的麦克风阵列实现最小方差无失真响应（MVDR）自适应波束成形器
+- **适用场景**：Linux 系统、语音增强
+
+#### 4. Beamforming Tools
+- **仓库地址**：[eac-ufsm/beamforming-tools](https://github.com/eac-ufsm/beamforming-tools)
+- **语言**：多种
+- **特点**：波束成形算法工具箱集合，包括麦克风阵列几何生成和评估工具
+- **适用场景**：教育、研究开发
+
+### 声源定位项目
+
+#### 1. DirectionOfVoice (DoV)
+- **仓库地址**：[FIGLAB/DirectionOfVoice](https://github.com/FIGLAB/DirectionOfVoice)
+- **语言**：Python
+- **特点**：语音方向估计研究项目，发表在 UIST 2020
+- **适用场景**：智能设备交互、语音助手
+
+#### 2. Microphone-sound-source-localization
+- **仓库地址**：[xiaoli1368/Microphone-sound-source-localization](https://github.com/xiaoli1368/Microphone-sound-source-localization)
+- **语言**：Matlab
+- **特点**：基于麦克风阵列的 TDOA-SRP 声源定位功能仿真
+- **适用场景**：算法学习、定位研究
+
+#### 3. sound-source-localization-algorithm_DOA_estimation
+- **仓库地址**：[WenzheLiu-Speech/sound-source-localization-algorithm_DOA_estimation](https://github.com/WenzheLiu-Speech/sound-source-localization-algorithm_DOA_estimation)
+- **语言**：Python/C++
+- **特点**：面向语音信号的声源定位传统算法（DOA 估计）
+- **适用场景**：语音处理、信号处理研究
+
+#### 4. xzqiaochu/mic
+- **仓库地址**：[xzqiaochu/mic](https://github.com/xzqiaochu/mic)
+- **语言**：Python/K210
+- **特点**：基于 K210 麦克风阵列的声源空间定位系统
+- **适用场景**：嵌入式系统、物联网设备
+
+### 硬件项目
+
+#### 1. ReSpeaker USB 4 Mic Array
+- **仓库地址**：[respeaker/usb_4_mic_array](https://github.com/respeaker/usb_4_mic_array)
+- **语言**：C/Python
+- **特点**：USB 4 麦克风阵列硬件，内置音频处理算法
+- **适用场景**：语音识别、声源定位、语音助手开发
+
+#### 2. SoundLocation
+- **仓库地址**：[mukyuuhate/SoundLocation](https://github.com/mukyuuhate/SoundLocation)
+- **语言**：Python/FPGA
+- **特点**：基于 PYNQ-Z2 的声源定位系统，使用 FPGA 实现
+- **适用场景**：高性能声源定位、实时处理
+
+### 算法与工具
+
+#### 1. ODAS (Open embeddeD Audition System)
+- **项目特点**：完全用 C 语言编写的开源库，用于声源定位、跟踪、分离和后滤波
+- **适用场景**：嵌入式系统、实时音频处理
+
+#### 2. DirectionalMicrophone
+- **仓库地址**：[wespo/DirectionalMicrophone](https://github.com/wespo/DirectionalMicrophone)
+- **语言**：Matlab
+- **特点**：在空间中建模定向麦克风的 Matlab 代码
+- **适用场景**：理论建模、教学
+
+### 学习资源
+
+- **GitHub Topic: microphone-array**：[https://github.com/topics/microphone-array](https://github.com/topics/microphone-array)
+  - 汇集了大量麦克风阵列相关的开源项目
+  - 包括经典算法如波束成形、TDOA 和高分辨率谱估计
+
+### 使用建议
+
+**初学者路径：**
+1. 从 Matlab 项目开始（如 MicArrayBeamforming），理解基本原理
+2. 尝试 Python 项目（如 Acoular），进行实际编程
+3. 探索硬件项目（如 ReSpeaker），进行实际部署
+
+**开发者路径：**
+1. 研究算法实现（如 triforce、DoV）
+2. 参与开源项目贡献
+3. 基于现有项目开发定制化解决方案
+
+**注意事项：**
+- 部分项目需要特定的硬件支持
+- 遵守项目的开源许可证
+- 尊重隐私，合法使用技术
+
 ## 技术类型对比
 
 ### 主要定向麦克风类型
