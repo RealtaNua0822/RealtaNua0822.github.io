@@ -1,0 +1,4 @@
+<div class="greeting">
+  <h2>{{ .Get "name" | default "朋友" }}，你好！</h2>
+  {{ .Inner | markdownify }}
+</div>

@@ -1,0 +1,5 @@
+{{ $url := .Get "url" }}
+{{ $text := .Get "text" | default "点击这里" }}
+{{ $class := .Get "class" | default "btn-primary" }}
+
+<a href="{{ $url }}" class="btn {{ $class }}">{{ $text }}</a>
